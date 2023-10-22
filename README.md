@@ -46,7 +46,7 @@ npm run lint
 
 ## Contributors
 
-- Your Name - Lead Developer
+- Gregory Yurchenko - Full Stack Developer
 
 ## License
 
