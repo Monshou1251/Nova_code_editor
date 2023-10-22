@@ -64,7 +64,28 @@ export default {
       autofocus: true,
       indentWithTabs: true,
       tabSize: 2,
-      extraKeys: { "Ctrl-Space": "autocomplete" },
+      extraKeys: {
+        "Ctrl-Space": "autocomplete",
+        "Ctrl-D": "deleteLine",
+        "Cmd-D": "deleteLine",
+        "Ctrl-Shift-K": function (cm) {
+          const doc = cm.getDoc();
+          const cursor = doc.getCursor();
+          doc.replaceRange(
+            "",
+            { line: cursor.line, ch: 0 },
+            { line: cursor.line, ch: 100 }
+          );
+        },
+        "Ctrl-Z": "undo",
+        "Cmd-Z": "undo",
+        "Shift-Ctrl-Z": "redo",
+        "Shift-Cmd-Z": "redo",
+        "Ctrl-F": "find",
+        "Cmd-F": "find",
+        "Ctrl-A": "selectAll",
+        "Cmd-A": "selectAll",
+      },
       fontSize: 18,
     };
 
