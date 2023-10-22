@@ -14,19 +14,27 @@ CodeNova is an elegant and user-friendly code editing application that enables u
 
 ### Installation
 
+```
 npm install
+```
 
 ### Development Server
 
+```
 npm run serve
+```
 
 ### Production Build
 
+```
 npm run build
+```
 
 ### Linting
 
+```
 npm run lint
+```
 
 ## Technologies Used
 
