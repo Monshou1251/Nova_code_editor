@@ -56,6 +56,16 @@ export default {
     const cmOptions = {
       mode: "text/javascript",
       theme: "mbo",
+      styleActiveLine: true,
+      lineNumbers: true,
+      line: true,
+      lineWrapping: true,
+      readOnly: false,
+      autofocus: true,
+      indentWithTabs: true,
+      tabSize: 2,
+      extraKeys: { "Ctrl-Space": "autocomplete" },
+      fontSize: 18,
     };
 
     return {
@@ -67,6 +77,10 @@ export default {
 </script>
 
 <style>
+.CodeMirror {
+  font-size: 14px;
+}
+
 /* Custom styles for the scroll bar */
 ::-webkit-scrollbar {
   width: 6px;

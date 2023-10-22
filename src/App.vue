@@ -25,9 +25,7 @@ export default {
     });
 
     watch(
-      () => {
-        return store.state.files;
-      },
+      store.state.files,
       (newFiles) => {
         if (initialized.value) {
           saveToLocalStorage("files", newFiles);
