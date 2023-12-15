@@ -1,4 +1,5 @@
 # CodeNova
+![TestNova](https://github.com/Monshou1251/Nova_code_editor/assets/103642657/e32be5f6-e325-4c62-8129-8997ea5b1aa7)
 
 CodeNova is an elegant and user-friendly code editing application that enables users to create, edit, and store multiple files seamlessly within the browser. With its intuitive interface and robust features, CodeNova provides a seamless coding experience for both beginners and experienced developers.
 
